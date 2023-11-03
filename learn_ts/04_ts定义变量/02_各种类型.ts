@@ -30,7 +30,8 @@ const names2: Array<string> = ['abc', 'cba', 'nba']; // 不推荐，与jsx语法
 /**
  * object类型
  */
-interface Info {
+// 为类型取别名，type用来定义类型别名
+type Info = {
   name: string,
   age: number,
   friend?: string[]

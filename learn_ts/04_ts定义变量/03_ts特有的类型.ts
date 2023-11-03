@@ -72,5 +72,12 @@ let test1: Test = (message, callback) => {
   
 }
 
+/**
+ * 对象类型
+ */
+function printPoint(point: {x: number, y: number}) {
+  console.log(point.x, point.y);
+}
+
 
 export {}
